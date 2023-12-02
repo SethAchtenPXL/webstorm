@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+
+
+<div id="eerstecontainer">
+    <h1>Welcome to the gameshow!</h1>
+    <br>
+    <br>
+    <h3>We'll play guess the number!</h3>
+    <details>
+        <summary>Rules</summary>
+        <p>* You have 3 lives to guess</p>
+        <p>* The number must be lower than 10</p>
+        <p>* Click "Start Game" to generate a number</p>
+    </details>
+    <br>
+    <button id ="starting" onclick="startGame()" >Start Game</button>
+    <br>
+
+    <input id="antwoord" type="text" placeholder="Your guess">
+    <button id="raden" onclick="testFunction()">Guess</button>
+    <p id="test"></p>
+    <br>
+    <p id="extratest"></p>
+    <button id="replay" onclick="opnieuw()" disabled="disabled">Replay</button>
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

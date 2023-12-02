@@ -1,0 +1,60 @@
+body{
+    background-image: url("background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+
+
+    color: #fff;
+    text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+}
+
+
+#eerstecontainer{
+    background: rgb(89,8,49);
+    background: linear-gradient(0deg, rgba(89,8,49,1) 0%, rgba(231,33,146,1) 16%, rgba(233,44,139,1) 56%, rgba(89,8,49,1) 93%);
+    height: 500px;
+    width: 500px;
+    margin-left: 38%;
+    margin-top: 10%;
+    text-align: center;
+    opacity: 80%;
+
+
+    color: #242423;
+    text-shadow:
+            0 0 7px rgba(249, 94, 203, 0.26),
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+}
+#antwoord{
+    margin-top: 10%;
+}
+
+#test{
+    background-color: blue;
+}
+#starting{
+    font-size: large;
+    border-radius: 12px;
+
+}
+
+
+
