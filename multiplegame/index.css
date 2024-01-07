@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.canvas{
+    background: linear-gradient(25deg, rgb(142, 78, 223), rgb(178, 21, 54));
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 30%;
+    height: 50%;
+    background: linear-gradient(25deg, rgb(78, 21, 54), rgb(142, 78, 170));
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+h1{
+    color: rgba(18, 20, 239, 0.8);
+
+}
+.games{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#guess{
+    background: linear-gradient(75deg, rgb(125, 44, 44), rgb(244, 20, 20));
+    border-radius: 25px;
+    height: 80%;
+    width: 20%;
+    color: rgba(22, 45, 180, 0.7);
+}
+#math{
+    background: linear-gradient(75deg, rgb(125, 44, 44), rgb(244, 20, 20));
+    border-radius: 25px;
+    height: 80%;
+    width: 20%;
+    color: rgba(22, 45, 180, 0.7);
+}
+#tf{
+    background: linear-gradient(75deg, rgb(125, 44, 44), rgb(244, 20, 20));
+    border-radius: 25px;
+    height: 80%;
+    width: 20%;
+    color: rgba(22, 45, 180, 0.7);
+}
+
+#options{
+    display: flex;
+}

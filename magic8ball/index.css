@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.canvas{
+    background: linear-gradient(25deg, rgb(142, 78, 223), rgb(178, 21, 54));
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 30%;
+    height: 50%;
+    background: linear-gradient(25deg, rgb(78, 21, 54), rgb(142, 78, 170));
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: rgba(18, 20, 239, 0.8);
+
+}
+input{
+    width: 60%;
+    height: 10%;
+    margin-top: 5%;
+
+}
+#reveal{
+    height: 30%;
+    width: 25%;
+    border-radius: 25px;
+}
+#question{
+    width: 70%;
+    height: 30%;
+}
+#vraag{
+    width: 70%;
+    height: 30%;
+}
+#answer{
+    font-size: 20pt;
+}
